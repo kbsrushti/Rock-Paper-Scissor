@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Skill Safari | Rock, Paper, Scissors</title>
+
+
+ 
+
+    <!-- bootstrap 4 css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- fontawesome cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js" integrity="sha512-YSdqvJoZr83hj76AIVdOcvLWYMWzy6sJyIMic2aQz5kh2bPTd9dzY3NtdeEAzPp/PhgZqr4aJObB3ym/vsItMg==" crossorigin="anonymous"></script>
+
+    <!---custom css-->
+
+    
+    <link rel="stylesheet" type="text/css" href="css/bonus.css">
+   
+
+
+
+</head>
+<body data-gr-c-s-loaded="true" class="vsc-initialized" style="user-select: auto">
+<div class="wrapper bg-white">
+    <div class="container">
+      <header class="header">
+        <div class="logo">
+          <img src="./images/logo-bonus.svg" alt="">
+        </div>
+        <div class="score">
+          <p class="score-text">Score</p>
+          <h3 class="score-count">0</h3>
+        </div>
+      </header >
+      <main class="main mt-5">
+        <div class="game">
+          <div class="game__options">
+            <div class="option option-rock "><img src="./images/icon-rock.svg"  alt=""></div>
+            <div class="option option-lizard "><img src="./images/icon-lizard.svg" alt=""></div>
+            <div class="option option-spock "><img src="./images/icon-spock.svg" alt=""></div>
+            <div class="option option-paper"><img src="./images/icon-paper.svg" alt=""></div> 
+            <div class="option option-scissors"><img src="./images/icon-scissors.svg" alt=""></div>
+          </div>
+          <div class="results display">
+            <div class="choice user-choice">
+              <p class="mt-4">You Picked</p>
+              <div class="clicked-option option-user"></div>
+            </div>
+            <div class="result">
+              <h2 class="result-text ">You Lose</h2>
+              <button class="play-again ">Play Again</button>
+            </div>
+            <div class="choice comp-choice mt-2">
+              <p class="mt-4">The House Picked</p>
+              <div class="clicked-option option-comp "></div>
+            </div>
+          </div>
+          <button class="rules bg-white text-dark">Rules</button>
+          <a href="index.html" class="text-muted mt-3" style="text-decoration: none;">Click here to go back to original game</a>
+
+        
+        </div>
+        <div class="rules-modal display-modal">
+          <div class="rules">
+            <h2>Rules</h2>
+            <div class="rules-close " style="margin-bottom: 30px;">
+               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"><path class="close-icon" fill="#3B4262" fill-rule="evenodd" d="M16.97 0l2.122 2.121-7.425 7.425 7.425 7.425-2.121 2.12-7.425-7.424-7.425 7.425L0 16.97l7.425-7.425L0 2.121 2.121 0l7.425 7.425L16.971 0z" opacity=".50"/></svg>             
+            </div>
+          </div>
+          
+          
+          <div class="rules-modal__options " style="width: 70%;margin-top: -90px;">
+            <img src="images/image-rules-bonus.svg" alt="" class="img-fluid" >
+            
+          </div>
+        </div>
+      </main>
+     
+    </div>
+  </div>
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <!-- custom script -->
+    <script src="js/bonus.js"></script>
+   
+
+    <!-- <script src="js/bootstrap.js"></script> -->
+
+
+</body>
+</html>
